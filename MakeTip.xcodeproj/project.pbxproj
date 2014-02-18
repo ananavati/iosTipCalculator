@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1785375318B369EA006A2CD1 /* user_male2-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785374B18B369EA006A2CD1 /* user_male2-25.png */; };
+		1785375418B369EA006A2CD1 /* user_male2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785374C18B369EA006A2CD1 /* user_male2-32.png */; };
+		1785375518B369EA006A2CD1 /* user_male2-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785374D18B369EA006A2CD1 /* user_male2-50.png */; };
+		1785375618B369EA006A2CD1 /* user_male2-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785374E18B369EA006A2CD1 /* user_male2-75.png */; };
+		1785375718B369EA006A2CD1 /* user_male2-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785374F18B369EA006A2CD1 /* user_male2-100.png */; };
+		1785375818B369EA006A2CD1 /* user_male2-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375018B369EA006A2CD1 /* user_male2-128.png */; };
+		1785375918B369EA006A2CD1 /* user_male2-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375118B369EA006A2CD1 /* user_male2-256.png */; };
+		1785375A18B369EA006A2CD1 /* user_male2-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375218B369EA006A2CD1 /* user_male2-512.png */; };
+		1785376218B36C04006A2CD1 /* calculator-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375B18B36C04006A2CD1 /* calculator-26.png */; };
+		1785376318B36C04006A2CD1 /* calculator-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375C18B36C04006A2CD1 /* calculator-32.png */; };
+		1785376418B36C04006A2CD1 /* calculator-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375D18B36C04006A2CD1 /* calculator-48.png */; };
+		1785376518B36C04006A2CD1 /* calculator-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375E18B36C04006A2CD1 /* calculator-64.png */; };
+		1785376618B36C04006A2CD1 /* calculator-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785375F18B36C04006A2CD1 /* calculator-128.png */; };
+		1785376718B36C04006A2CD1 /* calculator-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785376018B36C04006A2CD1 /* calculator-256.png */; };
+		1785376818B36C04006A2CD1 /* calculator-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785376118B36C04006A2CD1 /* calculator-512.png */; };
+		1785376A18B36CD0006A2CD1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1785376918B36CD0006A2CD1 /* Icon.png */; };
+		178537AD18B37095006A2CD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178537AC18B37095006A2CD1 /* Images.xcassets */; };
 		17B6B17F18B33758005C907A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6B17E18B33758005C907A /* Foundation.framework */; };
 		17B6B18118B33758005C907A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6B18018B33758005C907A /* CoreGraphics.framework */; };
 		17B6B18318B33758005C907A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6B18218B33758005C907A /* UIKit.framework */; };
 		17B6B18918B33758005C907A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B6B18718B33758005C907A /* InfoPlist.strings */; };
 		17B6B18B18B33758005C907A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6B18A18B33758005C907A /* main.m */; };
 		17B6B18F18B33758005C907A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6B18E18B33758005C907A /* AppDelegate.m */; };
-		17B6B19118B33758005C907A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B6B19018B33758005C907A /* Images.xcassets */; };
 		17B6B19818B33758005C907A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6B19718B33758005C907A /* XCTest.framework */; };
 		17B6B19918B33758005C907A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6B17E18B33758005C907A /* Foundation.framework */; };
 		17B6B19A18B33758005C907A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6B18218B33758005C907A /* UIKit.framework */; };
@@ -34,6 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1785374B18B369EA006A2CD1 /* user_male2-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-25.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-25.png"; sourceTree = "<group>"; };
+		1785374C18B369EA006A2CD1 /* user_male2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-32.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-32.png"; sourceTree = "<group>"; };
+		1785374D18B369EA006A2CD1 /* user_male2-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-50.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-50.png"; sourceTree = "<group>"; };
+		1785374E18B369EA006A2CD1 /* user_male2-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-75.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-75.png"; sourceTree = "<group>"; };
+		1785374F18B369EA006A2CD1 /* user_male2-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-100.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-100.png"; sourceTree = "<group>"; };
+		1785375018B369EA006A2CD1 /* user_male2-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-128.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-128.png"; sourceTree = "<group>"; };
+		1785375118B369EA006A2CD1 /* user_male2-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-256.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-256.png"; sourceTree = "<group>"; };
+		1785375218B369EA006A2CD1 /* user_male2-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male2-512.png"; path = "../../../../Downloads/iOS7_icons/PNG/Users/user_male2/user_male2-512.png"; sourceTree = "<group>"; };
+		1785375B18B36C04006A2CD1 /* calculator-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-26.png"; path = "../../../../Downloads/calculator/calculator-26.png"; sourceTree = "<group>"; };
+		1785375C18B36C04006A2CD1 /* calculator-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-32.png"; path = "../../../../Downloads/calculator/calculator-32.png"; sourceTree = "<group>"; };
+		1785375D18B36C04006A2CD1 /* calculator-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-48.png"; path = "../../../../Downloads/calculator/calculator-48.png"; sourceTree = "<group>"; };
+		1785375E18B36C04006A2CD1 /* calculator-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-64.png"; path = "../../../../Downloads/calculator/calculator-64.png"; sourceTree = "<group>"; };
+		1785375F18B36C04006A2CD1 /* calculator-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-128.png"; path = "../../../../Downloads/calculator/calculator-128.png"; sourceTree = "<group>"; };
+		1785376018B36C04006A2CD1 /* calculator-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-256.png"; path = "../../../../Downloads/calculator/calculator-256.png"; sourceTree = "<group>"; };
+		1785376118B36C04006A2CD1 /* calculator-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-512.png"; path = "../../../../Downloads/calculator/calculator-512.png"; sourceTree = "<group>"; };
+		1785376918B36CD0006A2CD1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		178537AC18B37095006A2CD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17B6B17B18B33758005C907A /* MakeTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B6B17E18B33758005C907A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17B6B18018B33758005C907A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +77,6 @@
 		17B6B18C18B33758005C907A /* MakeTip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakeTip-Prefix.pch"; sourceTree = "<group>"; };
 		17B6B18D18B33758005C907A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17B6B18E18B33758005C907A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		17B6B19018B33758005C907A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17B6B19618B33758005C907A /* MakeTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B6B19718B33758005C907A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		17B6B19F18B33758005C907A /* MakeTipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakeTipTests-Info.plist"; sourceTree = "<group>"; };
@@ -112,9 +144,25 @@
 		17B6B18418B33758005C907A /* MakeTip */ = {
 			isa = PBXGroup;
 			children = (
+				178537AC18B37095006A2CD1 /* Images.xcassets */,
+				1785376918B36CD0006A2CD1 /* Icon.png */,
+				1785375B18B36C04006A2CD1 /* calculator-26.png */,
+				1785375C18B36C04006A2CD1 /* calculator-32.png */,
+				1785375D18B36C04006A2CD1 /* calculator-48.png */,
+				1785375E18B36C04006A2CD1 /* calculator-64.png */,
+				1785375F18B36C04006A2CD1 /* calculator-128.png */,
+				1785376018B36C04006A2CD1 /* calculator-256.png */,
+				1785376118B36C04006A2CD1 /* calculator-512.png */,
+				1785374B18B369EA006A2CD1 /* user_male2-25.png */,
+				1785374C18B369EA006A2CD1 /* user_male2-32.png */,
+				1785374D18B369EA006A2CD1 /* user_male2-50.png */,
+				1785374E18B369EA006A2CD1 /* user_male2-75.png */,
+				1785374F18B369EA006A2CD1 /* user_male2-100.png */,
+				1785375018B369EA006A2CD1 /* user_male2-128.png */,
+				1785375118B369EA006A2CD1 /* user_male2-256.png */,
+				1785375218B369EA006A2CD1 /* user_male2-512.png */,
 				17B6B18D18B33758005C907A /* AppDelegate.h */,
 				17B6B18E18B33758005C907A /* AppDelegate.m */,
-				17B6B19018B33758005C907A /* Images.xcassets */,
 				17B6B18518B33758005C907A /* Supporting Files */,
 				17B6B1AD18B345EB005C907A /* MakeTipViewController.h */,
 				17B6B1AE18B345EB005C907A /* MakeTipViewController.m */,
@@ -227,9 +275,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1785375418B369EA006A2CD1 /* user_male2-32.png in Resources */,
+				1785375818B369EA006A2CD1 /* user_male2-128.png in Resources */,
+				1785375618B369EA006A2CD1 /* user_male2-75.png in Resources */,
+				1785375718B369EA006A2CD1 /* user_male2-100.png in Resources */,
+				1785376818B36C04006A2CD1 /* calculator-512.png in Resources */,
+				1785376518B36C04006A2CD1 /* calculator-64.png in Resources */,
+				1785375A18B369EA006A2CD1 /* user_male2-512.png in Resources */,
+				1785376418B36C04006A2CD1 /* calculator-48.png in Resources */,
+				1785376618B36C04006A2CD1 /* calculator-128.png in Resources */,
+				1785376718B36C04006A2CD1 /* calculator-256.png in Resources */,
+				1785376A18B36CD0006A2CD1 /* Icon.png in Resources */,
+				1785375518B369EA006A2CD1 /* user_male2-50.png in Resources */,
 				17B6B1B118B345EB005C907A /* MakeTipViewController.xib in Resources */,
+				1785376218B36C04006A2CD1 /* calculator-26.png in Resources */,
+				1785376318B36C04006A2CD1 /* calculator-32.png in Resources */,
+				178537AD18B37095006A2CD1 /* Images.xcassets in Resources */,
 				17B6B18918B33758005C907A /* InfoPlist.strings in Resources */,
-				17B6B19118B33758005C907A /* Images.xcassets in Resources */,
+				1785375918B369EA006A2CD1 /* user_male2-256.png in Resources */,
+				1785375318B369EA006A2CD1 /* user_male2-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +517,7 @@
 				17B6B1A918B33758005C907A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B6B1AA18B33758005C907A /* Build configuration list for PBXNativeTarget "MakeTipTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +526,7 @@
 				17B6B1AC18B33758005C907A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
