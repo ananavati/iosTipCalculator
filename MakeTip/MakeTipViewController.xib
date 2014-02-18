@@ -6,6 +6,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MakeTipViewController">
             <connections>
+                <outlet property="billAmountTextField" destination="EuT-er-t6c" id="TvE-uv-cpb"/>
+                <outlet property="tipAmountLabel" destination="dPp-ut-ofz" id="7WO-t2-vMT"/>
+                <outlet property="tipPercentLabel" destination="g7H-Ku-XdZ" id="dTX-ms-wVB"/>
+                <outlet property="tipSlider" destination="Xbo-O7-tfa" id="AaI-qN-D0w"/>
+                <outlet property="tipStepper" destination="ry8-mc-rEn" id="1EN-XH-PM8"/>
+                <outlet property="totalAmountLabel" destination="07L-YS-34u" id="J5D-Dt-ch9"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -31,6 +37,9 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                    <connections>
+                        <action selector="onTap:" destination="-1" eventType="editingChanged" id="k4j-vh-XT1"/>
+                    </connections>
                 </textField>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$10000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPp-ut-ofz">
                     <rect key="frame" x="200" y="83" width="85" height="21"/>
@@ -49,11 +58,17 @@
                     <rect key="frame" x="18" y="137" width="162" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="onTap:" destination="-1" eventType="valueChanged" id="0M0-P8-6hX"/>
+                    </connections>
                 </slider>
                 <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="1000" translatesAutoresizingMaskIntoConstraints="NO" id="ry8-mc-rEn">
                     <rect key="frame" x="191" y="139" width="94" height="29"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="onTap:" destination="-1" eventType="valueChanged" id="LMG-Jv-Ybk"/>
+                    </connections>
                 </stepper>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cy-tk-Wrq">
                     <rect key="frame" x="20" y="195" width="108" height="21"/>
@@ -69,8 +84,22 @@
                 </label>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="oNg-ZB-ASG" appends="YES" id="O3O-9X-qH3"/>
+            </connections>
         </view>
+        <tapGestureRecognizer id="CfH-j7-4r0">
+            <connections>
+                <action selector="onTap:" destination="-1" id="uZx-pE-r5J"/>
+            </connections>
+        </tapGestureRecognizer>
+        <swipeGestureRecognizer direction="up" id="oNg-ZB-ASG">
+            <connections>
+                <action selector="onSwipeUp:" destination="-1" id="zlZ-wa-cvY"/>
+            </connections>
+        </swipeGestureRecognizer>
     </objects>
 </document>
