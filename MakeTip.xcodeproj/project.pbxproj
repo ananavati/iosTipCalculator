@@ -19,6 +19,8 @@
 		17B6B19A18B33758005C907A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6B18218B33758005C907A /* UIKit.framework */; };
 		17B6B1A218B33758005C907A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B6B1A018B33758005C907A /* InfoPlist.strings */; };
 		17B6B1A418B33758005C907A /* MakeTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6B1A318B33758005C907A /* MakeTipTests.m */; };
+		17B6B1B018B345EB005C907A /* MakeTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6B1AE18B345EB005C907A /* MakeTipViewController.m */; };
+		17B6B1B118B345EB005C907A /* MakeTipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B6B1AF18B345EB005C907A /* MakeTipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		17B6B19F18B33758005C907A /* MakeTipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakeTipTests-Info.plist"; sourceTree = "<group>"; };
 		17B6B1A118B33758005C907A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B6B1A318B33758005C907A /* MakeTipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeTipTests.m; sourceTree = "<group>"; };
+		17B6B1AD18B345EB005C907A /* MakeTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeTipViewController.h; sourceTree = "<group>"; };
+		17B6B1AE18B345EB005C907A /* MakeTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeTipViewController.m; sourceTree = "<group>"; };
+		17B6B1AF18B345EB005C907A /* MakeTipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MakeTipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				17B6B18E18B33758005C907A /* AppDelegate.m */,
 				17B6B19018B33758005C907A /* Images.xcassets */,
 				17B6B18518B33758005C907A /* Supporting Files */,
+				17B6B1AD18B345EB005C907A /* MakeTipViewController.h */,
+				17B6B1AE18B345EB005C907A /* MakeTipViewController.m */,
+				17B6B1AF18B345EB005C907A /* MakeTipViewController.xib */,
 			);
 			path = MakeTip;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B6B1B118B345EB005C907A /* MakeTipViewController.xib in Resources */,
 				17B6B18918B33758005C907A /* InfoPlist.strings in Resources */,
 				17B6B19118B33758005C907A /* Images.xcassets in Resources */,
 			);
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B6B1B018B345EB005C907A /* MakeTipViewController.m in Sources */,
 				17B6B18F18B33758005C907A /* AppDelegate.m in Sources */,
 				17B6B18B18B33758005C907A /* main.m in Sources */,
 			);
