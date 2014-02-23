@@ -15,7 +15,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     MakeTipViewController *view = [[MakeTipViewController alloc] init];
-    self.window.rootViewController = view;
+    UINavigationController *navView = [[UINavigationController alloc] initWithRootViewController:view];
+    self.window.rootViewController = navView;
 
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
